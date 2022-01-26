@@ -1,7 +1,4 @@
-import sqlite3
-from flask import Blueprint, render_template, redirect, request, g, session, make_response, flash
-import libuser
-import libsession
+from flask import Blueprint, render_template, redirect, request, g, flash
 import libmfa
 import pyotp
 import qrcode

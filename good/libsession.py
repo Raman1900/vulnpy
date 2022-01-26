@@ -1,5 +1,3 @@
-import json
-import base64
 
 import geoip2.database
 

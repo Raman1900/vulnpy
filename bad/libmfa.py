@@ -1,6 +1,5 @@
 import pyotp
 import sqlite3
-from time import sleep
 
 def mfa_is_enabled(username):
 

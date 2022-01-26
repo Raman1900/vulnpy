@@ -1,5 +1,4 @@
-import sqlite3
-from flask import Blueprint, render_template, redirect, request, g, session
+from flask import Blueprint, render_template, redirect, request, session
 
 from lib.posts1 import get_posts, post
 

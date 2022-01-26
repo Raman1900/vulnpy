@@ -1,5 +1,4 @@
 import sqlite3
-import libuser
 
 
 def login(username, password):

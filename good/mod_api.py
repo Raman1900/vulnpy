@@ -1,6 +1,4 @@
-from flask import Blueprint, render_template, redirect, request, g, session, make_response, flash, jsonify
-import libuser
-import libsession
+from flask import Blueprint, request, jsonify
 import libposts
 import libapi
 from jsonschema import validate, ValidationError
